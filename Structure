@@ -1,0 +1,27 @@
+#include<stdio.h>
+struct student
+{
+   int rno;
+   char name[20];
+   float per;
+   char class;
+}
+ s1[100];
+ int main()
+  {
+    int i,n;
+    printf("enter limit");
+     scanf("%d",&n);
+     printf("enter n student info");
+     for(i=0;i<n;i++)
+       {
+         printf("enter  n student rno,name,Per,class);
+         scanf("%d%s%f%s",s1[i]rno,s1[i]name,s1[i]per,s1[i]class);
+        }
+        for(i=0;i<n;i++)
+    }
+      printf("\n rno=%d",s1[i].rno);
+      printf("\n name=%s",s1[i].name);
+      printf("\n per=%f",s1[i].per);
+      printf("\n class=%s",s1[i].class);
+}
